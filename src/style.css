@@ -1,0 +1,84 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eeeeec;
+  color: #43633b;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.7)), url('pattern2.png'); 
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
+
+header {
+  background-color: #eee7d6;
+  padding: 30px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #03490d;
+}
+header h2 {
+  margin: 0;
+  font-size: 15px;
+  color: #e44e09; 
+}
+main {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.container {
+  max-width: 400px;
+  padding: 40px;
+  border: 3px solid #d92f06;
+  border-radius: 6px;
+  background-color: #f1eccc;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d92f06;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 20px;
+  background-color: #d92f06;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #b02406;
+}
+
+footer {
+  background-color: #eee7d6;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  /* para ficar visível em dispositivos móveis */
+  header h1 {
+    font-size: 20px;
+  }
+}
