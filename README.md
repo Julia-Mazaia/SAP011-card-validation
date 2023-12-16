@@ -7,14 +7,17 @@
 * [1. Introdução](#1-Introdução)
 * [2. Planejamento](#2-Planejamento)
 * [3. Objetivos](#3-objetivos-de-aprendizagem-deste-projeto)
-* [4. Como fazer o deploy](#4-como-fazer-o-deploy)
-* [5. Acesso ao projeto](#5-acesso-ao-projeto)
+* [4. O que foi utilizado para a realização desse projeto
+](#4-O-que-foi-utilizado-para-a-realização-desse-projeto)
+* [5. Como rodar o projeto](#5-Como-rodar-o-projeto)
+* [6. Como acessar o projeto](#6-Como-acessar-o-projeto)
 
 ***
 
 ## 1. Introdução
 
 Este projeto consiste na criação de uma página web contendo um validador de cartões de crédito, utilizando o algorítmo de Luhn para fazer a validação. 
+
 
 ## 2. Planejamento 
 
@@ -26,7 +29,8 @@ O planejamento feito para elaboração do projeto foi dividido em Sprints, para 
 
 - Sprint 2: Início da parte técnica; Estrutura e estilização básica; uso de javaScript para implantar a lógica do algorítmo de Luhn, bem como mascarar os números e deixar apenas os últimos 4 dígitos visíveis, permitir apenas dígitos numéricos de 0 a 9 e devolver a mensagem de validação positiva ou não. 
 
-- Sprint 3: Revisão dos objetivos de aprendizagem, passar pelos testes unitários e aprendizado sobre como deployar e disponibilizar meu repositório no Github; Desenvolvimento do Read.me do projeto 
+- Sprint 3: Revisão dos objetivos de aprendizagem, passar pelos testes unitários e aprendizado sobre como deployar e disponibilizar meu repositório no Github; Desenvolvimento do Read.me do projeto
+  
 
 ## 3. Objetivos de aprendizagem deste projeto
 
@@ -36,11 +40,24 @@ O planejamento feito para elaboração do projeto foi dividido em Sprints, para 
   unitários).
 * Aprenda sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
 * Implementar controle de versão com git (e a plataforma github)
+  
 
-## 4. Como fazer o Deploy
+## 4. O que foi utilizado para a realização desse projeto
 
-Utilizando o Github, rodar o comando `npm run deploy` 
+ * Uso de HTML semântico
+ * Seletores de CSS
+ * Box model
+ * Seletores de DOM
+ * Manipulação de eventos DOM
+ * Manipulação dinâmica de DOM
+ * Funcionalidades dentro de javaScript, como dados primitivos, strings, variáveis, condicionais, laços, funções, módulos de ECMAScript, testes unitários, linter entre outros
+   
 
-## 5. Acesso ao projeto
+## 5. Como rodar o projeto 
+
+Utilizando o Github, rodar o comando `npm run deploy`
+
+
+## 6. Como acessar o projeto 
 
 Acesse através do link https://julia-mazaia.github.io/SAP011-card-validation/
